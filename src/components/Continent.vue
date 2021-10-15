@@ -2,12 +2,12 @@
   <div class="text-center">
     <h3>Filter by continent</h3>
     <div class="btn-group mb-3">
-      <button class="btn btn-dark" @click="filter('Americas')" >AM</button>
-      <button class="btn btn-dark" @click="filter('Europe')">EU</button>
-      <button class="btn btn-dark" @click="filter('Asia')">AS</button>
-      <button class="btn btn-dark" @click="filter('Oceania')">OC</button>
-      <button class="btn btn-dark" @click="filter('Africa')">AF</button>
-      <button class="btn btn-dark" @click="filter('')">ALL</button>
+      <button class="btn btn-primary" @click="filter('Americas')" >AM</button>
+      <button class="btn btn-primary" @click="filter('Europe')">EU</button>
+      <button class="btn btn-primary" @click="filter('Asia')">AS</button>
+      <button class="btn btn-primary" @click="filter('Oceania')">OC</button>
+      <button class="btn btn-primary" @click="filter('Africa')">AF</button>
+      <button class="btn btn-primary" @click="filter('')">ALL</button>
     </div>
   </div>
 </template>
