@@ -4,7 +4,7 @@
       <h3 class="text-center">{{ countrie.name }}</h3>
         <p class="text-center">
             <img :src="countrie.flag" :alt="`flag-${countrie.name}`" class="img-fluid w-50"> </p>
-      <p class="card-text">
+      <p class="card-text" style="font-size: 30px">
         <span class="badge bg-success d-block mb-1"
           >Native name : {{ countrie.nativeName }}</span
         >
